@@ -1,0 +1,95 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins',sans-serif;
+}
+body{
+      background: #2d588d;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+img{
+      width: 70px;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
+      top:60px;
+      z-index: 2;
+}
+.clock{
+      position: relative;
+      width: 350px;
+      z-index: 1;
+      height: 350px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.936);
+     border: 5px solid rgb(19, 82, 116);
+     box-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+}
+.numbers div{
+      position:absolute;
+      font-size: 27px;
+      font-weight: bold;
+      color: rgb(6, 39, 55);
+      text-shadow:1px 1px 2px rgba(0,0,0,0.7);
+}
+.twelve{
+      top:6px;
+      left:50%;
+      transform: translateX(-50%);
+}
+.three{
+      right:10px;
+      top:50%;
+      transform: translateY(-50%);
+}
+.six{
+      bottom:6px;
+      left:50%;
+      transform: translateX(-50%);
+}
+.nine{
+      left:6px;
+      top:50%;
+      transform: translateY(-50%);
+}
+.arrows{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.arrows::before{
+      content: "";
+      width: 25px;
+      height: 25px;
+      background: rgb(4, 59, 104);
+      border-radius: 50%;
+      box-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+      z-index: 4;
+}
+.arrows div{
+      background: #fff;
+      width: 7px;
+      position: absolute;
+      height: 120px;
+      transform-origin: bottom center;
+      bottom: 50%;
+      z-index: 3;
+      border-radius: 50%;
+      border-radius: 50% 50% 0 0;
+        box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+.arrows .hour{
+      height: 80px;
+      background-color: red;
+}
+
+.arrows .second{
+      background: goldenrod;
+}
