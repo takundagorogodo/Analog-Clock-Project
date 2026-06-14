@@ -20,16 +20,6 @@ This project displays the current system time using rotating clock hands (hour, 
 * JavaScript (Vanilla JS)
 
 ---
-## 📂 Project Structure
-```
-Analog-Clock/
-│
-├── index.html
-├── style.css
-├── script.js
-├── clock-image.png
-└── README.md
-```
 ---
 
 ## ⚙️ How It Works
